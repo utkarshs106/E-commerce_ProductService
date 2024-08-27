@@ -1,0 +1,32 @@
+in this project we will have following functionality
+
+1. fetching products
+2. Caching different requests
+3. Writing test cases for different cases
+4. Represent Inheritance in Tables
+5. Will also include logging and monitoring later
+
+Model
+
+ProductBaseTable
+@Pid
+CreatedAt
+UpdatedAt
+Price
+
+Electronics
+ModelNo
+Memory
+Brand
+
+Cosmetics
+BodyPart
+TargetAge
+Gender
+Brand
+
+Stationary
+Title
+Author
+Genre
+NoOfPages
