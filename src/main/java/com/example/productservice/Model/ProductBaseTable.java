@@ -8,11 +8,13 @@ import java.util.Date;
 
 @Setter
 @Getter
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+@MappedSuperclass
+
 public class ProductBaseTable {
     @Id
     int Pid;
     Date CreatedAt;
     Date UpdatedAt;
     int Price;
+    String ImageURL;
 }
